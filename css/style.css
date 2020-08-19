@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+
+.top-section {
+    background-color: #E0EBE8;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    padding-top: 50px;
+    font-size: 5.625rem;
+    color: #66bfbf;
+    line-height: 2;
+}
+
+h2 {
+    color: #66bfbf;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999e;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    width: 5%;
+    margin: 100px auto;
+    border-bottom: none;
+}
+
+/* Class Selectors */
+
+.top-p {
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+
+.profile p {
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.profile-img {
+    width: 20%;
+    border-radius: 100%
+}
+
+.graphic-img {
+    width: 20%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+/*.web-design-desc {
+    clear: left; to remove left float
+    clear: right; to remove right float
+}*/
+
+.code-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    width: 70%;
+    margin: auto;
+}
+.contact-me p {
+    width: 60%;
+    margin: 40px auto;
+}
+
+/* margin: 1em 1% 2em;
+first: top
+second: left and right;
+third: bottom;
+*/
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 20px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #11999e;
+    margin: 10px 20px;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.copyright-msg {
+    color: #eaf6f6;
+    padding: 20px;
+    font-size: 0.75rem;
+}
